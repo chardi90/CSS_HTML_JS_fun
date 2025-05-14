@@ -4,5 +4,6 @@ function handleClick(event) {
 }
 
 let buttonElement = document.querySelector("#special-button");
-console.log(buttonElement);
 buttonElement.addEventListener("click", handleClick);
+console.log(buttonElement.attributes);
+buttonElement.setAttributeNS("class", "danger");
