@@ -23,11 +23,22 @@ button {
   transition: all 200ms ease-in-out;
 }
 
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+  text-align: none;
+}
+
 .highlight {
   color: red;
   background-color: black;
   border: 0;
   padding: 15px 20px;
-  margin: 0 500px;
+  margin: 0 35%;
   text-align: center;
 }
