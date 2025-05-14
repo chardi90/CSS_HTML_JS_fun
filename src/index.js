@@ -18,6 +18,6 @@ buttonElement.setAttribute("class", "danger");
 
 // setAttributes
 // element.style.marginRight = '10px';
-// element.classList.addd("special");
+// element.classList.add("special");
 // element.classList.remove("special");
 // element.classList.toggle("special");
