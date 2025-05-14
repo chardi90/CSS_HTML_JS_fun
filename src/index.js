@@ -3,6 +3,10 @@ function handleClick(event) {
   alert("Hooray!");
   let button = document.querySelector("button");
   button.style.background = "magenta";
+  button.innerHTML = "Oops";
+  let heading = document.querySelector(".heading");
+  heading.classList = "highlight";
+  heading.innerHTML = "You dared!";
 }
 
 let buttonElement = document.querySelector("#special-button");
